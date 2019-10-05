@@ -41,7 +41,7 @@ const code = `
         data () {
           return {
             urls: [
-              '../assets/equirectangular.jpg',
+              'http://skycdn-1257948461.cos.ap-shanghai.myqcloud.com/output.jpg',
               '../assets/pano.png'
             ],
             index: 0
@@ -76,7 +76,7 @@ export default {
       htmlCode,
       loading: true,
       urls: [
-        'assets/equirectangular.jpg',
+        'http://skycdn-1257948461.cos.ap-shanghai.myqcloud.com/output.jpg',
         'assets/pano.png'
       ],
       index: 0

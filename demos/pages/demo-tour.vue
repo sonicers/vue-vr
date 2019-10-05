@@ -30,7 +30,7 @@ const code = `
     <div
       class="demo-loading"
       v-show="loading"></div>
-      
+
 </template>
 
 <script>
@@ -45,7 +45,7 @@ const code = `
             scenes: [{
               key: 'M4wOy2s',
               panorama: {
-                source: 'assets/equirectangular.jpg',
+                source: 'http://skycdn-1257948461.cos.ap-shanghai.myqcloud.com/output.jpg',
                 type: 'image'
               },
               x: 0,
@@ -143,7 +143,7 @@ export default {
       scenes: [{
         key: 'M4wOy2s',
         panorama: {
-          source: 'assets/equirectangular.jpg',
+          source: 'http://skycdn-1257948461.cos.ap-shanghai.myqcloud.com/output.jpg',
           type: 'image'
         },
         x: 0,
