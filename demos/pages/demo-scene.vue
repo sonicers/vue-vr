@@ -34,7 +34,7 @@ const code = `
     <div
       class="demo-loading"
       v-show="loading"></div>
-
+      
 </template>
 
 <script>
@@ -49,7 +49,7 @@ const code = `
             scene: {
               key: 'M4wOy2s',
               panorama: {
-                source: 'http://skycdn-1257948461.cos.ap-shanghai.myqcloud.com/output.jpg',
+                source: 'assets/equirectangular.jpg',
                 type: 'image'
               },
               x: 0,
